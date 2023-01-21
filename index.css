@@ -34,6 +34,11 @@ button{
     line-height: 125%;
 }
 
+button:hover{
+    border: 3px solid #8b5cf6;
+    
+}
+
 #form-habits{
     display: flex;
     padding: 182px 48px 48px;
@@ -93,8 +98,16 @@ input:checked{
     border: 2px solid #a78ba7; 
 }
 
-@media (max-width: 570px){
-    bottom div{
+input:hover {
+    border: 3px solid #a78ba7;
+}
+
+@media (max-width: 425px){
+    .name-button{
         display: none;
+        margin-left: 10px;
+    }
+    header {
+        padding: 25px;
     }
 }
